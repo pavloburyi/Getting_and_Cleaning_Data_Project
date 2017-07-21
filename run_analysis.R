@@ -1,4 +1,9 @@
 
+#This code is used to get and clean the Samsung body motion sensor data 
+
+# First I have downloaded the zip file. Then I extrected the content of the folder and placed it in
+# in the folder "UCI HAR Dataset" located in my working directory.
+
 library(reshape2)
 
 # Load activity labels and features
